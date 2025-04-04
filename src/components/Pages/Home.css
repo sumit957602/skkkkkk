@@ -1,0 +1,101 @@
+.home-container {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 88vh;
+  background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+}
+
+.home-header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.home-header p {
+  margin: 5px 0 0;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.home-main {
+  flex: 1;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #2e7d32;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.cta {
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.home-footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+.home-footer a.footer-link {
+  color: #4caf50;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.home-footer a.footer-link:hover {
+  text-decoration: underline;
+}
