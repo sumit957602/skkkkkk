@@ -179,3 +179,99 @@ a:focus {
 .file-atc-box:last-child {
   margin-bottom: 0;
 }
+
+.fileupload-view {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.file-upload-box {
+  margin-bottom: 20px;
+}
+
+.kb-attach-box {
+  margin-bottom: 20px;
+}
+
+.file-atc-box {
+  margin-bottom: 15px;
+}
+
+.file-atc-box:last-child {
+  margin-bottom: 0;
+}
+
+.kb-buttons-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form-submit {
+  margin-top: 10px;
+}
+
+.file-upload-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.file-upload-box label {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #475f7b;
+}
+
+.file-upload-box .file-upload-input {
+  flex: 1;
+  max-width: 200px;
+  margin-left: 10px;
+}
+
+.file-upload-box {
+  border: 1px dashed #b6bed1;
+  background-color: #f0f2f7;
+  border-radius: 4px;
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  color: #8194aa;
+  font-weight: 400;
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.file-upload-box label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #475f7b;
+  margin-bottom: 5px;
+}
+
+.file-upload-box .file-upload-input {
+  position: relative;
+  opacity: 1;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.file-upload-box small {
+  font-size: 13px;
+  color: #8194aa;
+  line-height: 1.5;
+}
